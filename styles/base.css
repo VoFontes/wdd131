@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1f4e5f;
+    color: white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #133b4c;
+}
+
+nav a {
+    flex: 1 1 auto;
+    display: block;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #4f8a9d;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card h2 {
+    grid-column: 1 / -1;
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #1f4e5f;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
