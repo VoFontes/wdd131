@@ -1,4 +1,3 @@
-javascript
 // Get the current year
 const currentYear = new Date().getFullYear();
 document.querySelector("#currentyear").textContent = currentYear;
