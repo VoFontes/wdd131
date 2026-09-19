@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn about Utah, United States, including its geography, population, landmarks, and weather.">
+    <meta name="author" content="Victor O. Fontes">
+
+    <title>Utah, United States | WDD 131</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Utah, United States</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/utah-large.webp">
+                <img src="images/utah-small.webp"
+                     alt="Salt Lake City and the mountains of Utah"
+                     width="554"
+                     height="554">
+            </picture>
+        </section>
+
+        <section class="content">
+            <div class="about">
+                <h2>About Utah</h2>
+                <p>
+                    Utah is a western state known for its beautiful mountains,
+                    deserts, national parks, and outdoor recreation. The state
+                    offers a variety of landscapes, from the Wasatch Mountains
+                    to the red rock formations of southern Utah.
+                </p>
+            </div>
+
+            <div class="facts">
+                <h2>Facts</h2>
+                <p><strong>Capital:</strong> Salt Lake City</p>
+                <p><strong>Population:</strong> Approximately 3.5 million</p>
+                <p><strong>Area:</strong> 84,897 square miles</p>
+                <p><strong>Language:</strong> English</p>
+                <p><strong>Currency:</strong> United States Dollar (USD)</p>
+            </div>
+
+            <div class="weather">
+                <h2>Weather</h2>
+
+                <img class="weather-icon"
+                     src="images/weather.svg"
+                     alt="Partly cloudy weather">
+
+                <div class="weather-info">
+                    <p><strong>Temperature:</strong> <span id="temperature">45</span> °F</p>
+                    <p><strong>Conditions:</strong> Partly Cloudy</p>
+                    <p><strong>Wind:</strong> <span id="wind-speed">10</span> mph</p>
+                    <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Victor O. Fontes | Utah, United States</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
