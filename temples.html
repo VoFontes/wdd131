@@ -11,18 +11,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
 
-    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/filtered-temples.js" defer></script>
 </head>
 
 <body>
 
     <header>
         <div class="header-container">
+
             <span id="site-title">Temple Album</span>
 
             <button id="menu-button" aria-label="Open navigation menu">
@@ -30,75 +32,29 @@
             </button>
 
             <nav id="nav-menu">
-                <a href="temples.html">Home</a>
-                <a href="#">Old</a>
-                <a href="#">New</a>
-                <a href="#">Large</a>
-                <a href="#">Small</a>
+                <a href="#" id="home">Home</a>
+                <a href="#" id="old">Old</a>
+                <a href="#" id="new">New</a>
+                <a href="#" id="large">Large</a>
+                <a href="#" id="small">Small</a>
             </nav>
+
         </div>
     </header>
 
     <main>
         <h1>Temple Album</h1>
 
-     <div class="temple-grid">
+        <section class="temple-cards"></section>
+    </main>
 
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Salt Lake Temple">
-        <figcaption>Salt Lake Temple</figcaption>
-    </figure>
+    <footer>
+        <p>
+            © <span id="currentyear"></span> Victor O. Fontes
+        </p>
 
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Provo City Center Temple">
-        <figcaption>Provo City Center Temple</figcaption>
-    </figure>
+        <p id="lastModified"></p>
+    </footer>
 
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Brigham City Utah Temple">
-        <figcaption>Brigham City Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Oquirrh Mountain Utah Temple">
-        <figcaption>Oquirrh Mountain Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Jordan River Utah Temple">
-        <figcaption>Jordan River Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Layton Utah Temple">
-        <figcaption>Layton Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="St. George Utah Temple">
-        <figcaption>St. George Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Logan Utah Temple">
-        <figcaption>Logan Utah Temple</figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/temple-slc.jpg" alt="Rexburg Idaho Temple">
-        <figcaption>Rexburg Idaho Temple</figcaption>
-    </figure>
-
-</div>
-        </main>
-
-        <footer>
-            <p>
-                &copy; <span id="currentyear"></span> Victor O. Fontes
-            </p>
-
-            <p id="lastModified"></p>
-        </footer>
-
-    </body>
+</body>
 </html>
