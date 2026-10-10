@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Sonora, Mexico, through its beautiful landscapes, regional food, rich culture, and unforgettable destinations.">
+    <meta name="author" content="Victor O. Fontes">
+    <title>Discover Sonora | Explore Northern Mexico</title>
+    <link rel="stylesheet" href="styles/discover-sonora.css">
+    <script src="scripts/discover-sonora.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">Discover Sonora</a>
+
+        <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="nav-menu" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="places.html">Places</a>
+            <a href="food.html">Food & Culture</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Discover Northern Mexico</p>
+                <h1>Discover the Beauty of Sonora</h1>
+                <p>
+                    Explore a land of golden deserts, beautiful beaches,
+                    delicious food, and traditions that make Sonora unique.
+                </p>
+                <a class="button" href="places.html">Explore Sonora</a>
+            </div>
+        </section>
+
+        <section class="intro section-container">
+            <h2>A Land of Contrasts and Traditions</h2>
+            <p>
+                Located in northwestern Mexico, Sonora offers a remarkable
+                combination of desert landscapes, mountains, coastal
+                communities, and vibrant cities. Its geography and history
+                have helped shape a distinctive regional identity.
+            </p>
+            <p>
+                From the shores of the Sea of Cortez to the vast Sonoran
+                Desert, every region offers something different to discover.
+                Sonora is also known for its regional cuisine, hospitality,
+                and cultural traditions.
+            </p>
+        </section>
+
+        <section class="highlights section-container">
+            <h2>Explore What Makes Sonora Special</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img
+                        src="images/sonora-desert.webp"
+                        alt="Desert landscape in Sonora with mountains and native vegetation"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Natural Landscapes</h3>
+                        <p>
+                            Discover desert scenery, mountain ranges,
+                            and the remarkable natural environments of Sonora.
+                        </p>
+                        <a href="places.html">Discover destinations</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="images/puerto-penasco.webp"
+                        alt="Coastal scenery along the Sea of Cortez in Sonora"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Coastal Destinations</h3>
+                        <p>
+                            Learn about the beaches and coastal communities
+                            that attract visitors throughout the year.
+                        </p>
+                        <a href="places.html">Explore the coast</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="images/sonoran-hot-dog.webp"
+                        alt="Traditional Sonoran cuisine served as a regional meal"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Food and Culture</h3>
+                        <p>
+                            Experience regional flavors, local traditions,
+                            and the cultural identity of Sonora.
+                        </p>
+                        <a href="food.html">Explore food and culture</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter section-container">
+            <h2>Plan Your Sonora Experience</h2>
+            <p>
+                What would you most like to explore? Choose your interests
+                and save your preferences in your browser.
+            </p>
+
+            <form id="interest-form">
+                <label for="visitor-name">Your name</label>
+                <input
+                    type="text"
+                    id="visitor-name"
+                    name="visitor-name"
+                    autocomplete="name"
+                    required
+                >
+
+                <label for="interest">What interests you most?</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select an interest</option>
+                    <option value="beaches">Beaches and coastal destinations</option>
+                    <option value="nature">Deserts and nature</option>
+                    <option value="food">Food and regional cuisine</option>
+                    <option value="culture">Culture and traditions</option>
+                </select>
+
+                <button class="button" type="submit">Save My Interests</button>
+            </form>
+
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Discover Sonora | Victor O. Fontes</p>
+        <p><a href="references.html">References and Image Credits</a></p>
+    </footer>
+</body>
+</html>

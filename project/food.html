@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Sonora's traditional food, carne asada, flour tortillas, regional traditions, and cultural heritage.">
+    <meta name="author" content="Victor O. Fontes">
+    <title>Food and Culture | Discover Sonora</title>
+    <link rel="stylesheet" href="styles/discover-sonora.css">
+    <script src="scripts/discover-sonora.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">Discover Sonora</a>
+
+        <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="nav-menu" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="places.html">Places</a>
+            <a href="food.html" aria-current="page">Food &amp; Culture</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Taste and Tradition</p>
+                <h1>Experience Sonoran Food and Culture</h1>
+                <p>
+                    Discover the regional flavors, traditions, and
+                    cultural influences that make Sonora special.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <h2>A Rich Culinary Tradition</h2>
+
+            <p>
+                Sonoran cuisine reflects the region's geography, ranching
+                history, agricultural traditions, and proximity to the
+                Sea of Cortez. Beef, wheat flour, fresh seafood, beans,
+                and locally grown ingredients are important parts of
+                many regional meals.
+            </p>
+
+            <p>
+                Food is also a way to bring families and communities
+                together. Shared meals, celebrations, and local
+                traditions help preserve the identity of Sonora across
+                generations.
+            </p>
+        </section>
+
+        <section class="section-container">
+            <h2>Flavors of Sonora</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img
+                        src="images/carne-asada.webp"
+                        alt="Carne asada, a traditional food in Sonora, Mexico"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Carne Asada</h3>
+                        <p>
+                            Carne asada is one of Sonora's best-known
+                            culinary traditions. Beef is grilled over
+                            high heat and commonly served with flour
+                            tortillas, salsa, grilled onions, and other
+                            accompaniments. It is especially popular
+                            during family gatherings and celebrations.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="images/flour-tortillas.webp"
+                        alt="Traditional flour tortillas served fresh"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Flour Tortillas</h3>
+                        <p>
+                            Flour tortillas are an important part of
+                            Sonoran cuisine. They are enjoyed with
+                            grilled meat, beans, and many other dishes.
+                            Their place in regional cooking reflects
+                            Sonora's long history of wheat cultivation.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="images/sonoran-hot-dog.webp"
+                        alt="Sonoran-style hot dog with traditional toppings"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Sonoran-Style Hot Dogs</h3>
+                        <p>
+                            The Sonoran-style hot dog is a popular
+                            street food, especially associated with
+                            Hermosillo. It typically features a bacon-wrapped
+                            hot dog in a soft bun with a variety of
+                            toppings, which vary by vendor.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img
+                        src="images/sonora-seafood.webp"
+                        alt="Fresh seafood prepared in a coastal Sonoran style"
+                        loading="lazy"
+                        width="600"
+                        height="400"
+                    >
+                    <div class="card-content">
+                        <h3>Coastal Seafood</h3>
+                        <p>
+                            Communities along the Sea of Cortez have
+                            access to a rich variety of seafood.
+                            Fish and shrimp appear in many local dishes,
+                            reflecting the connection between coastal
+                            communities and the sea.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <h2>Culture, Community, and Traditions</h2>
+
+            <p>
+                Sonora's cultural heritage includes Indigenous
+                communities, ranching traditions, regional music,
+                crafts, and local celebrations. The Yaqui and Mayo
+                peoples, among others, have distinctive histories,
+                languages, and cultural practices that are an important
+                part of the state's heritage.
+            </p>
+
+            <p>
+                The state's geography also shapes everyday life.
+                Desert communities, agricultural areas, and coastal
+                towns each contribute their own traditions and ways
+                of connecting with the land.
+            </p>
+
+            <p>
+                Exploring Sonora means more than visiting its landscapes:
+                it also means appreciating the people, histories, and
+                traditions that give each community its character.
+            </p>
+        </section>
+
+        <section class="newsletter section-container">
+            <h2>What Would You Like to Discover?</h2>
+
+            <p>
+                Save your interests to help you remember what you want
+                to explore on this website.
+            </p>
+
+            <form id="interest-form">
+                <label for="visitor-name">Your name</label>
+                <input
+                    type="text"
+                    id="visitor-name"
+                    name="visitor-name"
+                    autocomplete="name"
+                    required
+                >
+
+                <label for="interest">Choose your interest</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select an interest</option>
+                    <option value="beaches">Beaches and coastal destinations</option>
+                    <option value="nature">Deserts and nature</option>
+                    <option value="food">Food and regional cuisine</option>
+                    <option value="culture">Culture and traditions</option>
+                </select>
+
+                <button class="button" type="submit">Save My Interests</button>
+            </form>
+
+            <p id="form-message" class="form-message" aria-l
