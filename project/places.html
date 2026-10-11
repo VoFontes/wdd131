@@ -1,157 +1,157 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the beaches, desert landscapes, mountains, and destinations of Sonora, Mexico.">
+    <meta name="description" content="Discover the beautiful destinations of Sonora, Mexico, including San Carlos, Puerto Peñasco, the Sonoran Desert, and Hermosillo.">
     <meta name="author" content="Victor O. Fontes">
-    <title>Places to Explore | Discover Sonora</title>
+    <title>Places to Visit | Discover Sonora</title>
     <link rel="stylesheet" href="styles/discover-sonora.css">
     <script src="scripts/discover-sonora.js" defer></script>
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html">Discover Sonora</a>
+        <div class="logo">
+            <a href="index.html">Discover Sonora</a>
+        </div>
 
-        <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
-            ☰
-        </button>
+```
+    <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        ☰
+    </button>
 
-        <nav id="nav-menu" aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="places.html" aria-current="page">Places</a>
-            <a href="food.html">Food &amp; Culture</a>
-        </nav>
-    </header>
+    <nav id="nav-menu" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="places.html" aria-current="page">Places</a>
+        <a href="food.html">Food &amp; Culture</a>
+        <a href="references.html">References</a>
+    </nav>
+</header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <p class="eyebrow">Explore the Region</p>
-                <h1>Discover Sonora's Landscapes</h1>
+<main>
+    <section class="hero">
+        <h1>Discover Sonora's Landscapes</h1>
+        <p>
+            From beautiful beaches along the Sea of Cortez to impressive
+            desert landscapes, Sonora offers many places to explore.
+            Discover some of the state's most memorable destinations.
+        </p>
+    </section>
+
+    <section class="container">
+        <h2>Places to Explore</h2>
+        <p>
+            Explore these destinations to discover the natural beauty,
+            local culture, and unique landscapes of Sonora, Mexico.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <img
+                    src="images/san-carlos.webp"
+                    alt="Coastal landscape and distinctive mountains near San Carlos, Sonora"
+                    loading="lazy"
+                    width="0"
+                    height="400">
+
+                <h3>San Carlos</h3>
                 <p>
-                    From the Sea of Cortez to the Sonoran Desert,
-                    explore the natural beauty and destinations of
-                    northwestern Mexico.
+                    San Carlos is a coastal destination known for its
+                    beaches, clear waters, and spectacular views of
+                    Tetakawi Mountain. Visitors can enjoy outdoor
+                    activities, explore the coastline, and admire
+                    beautiful sunsets.
                 </p>
-            </div>
-        </section>
+            </article>
 
-        <section class="section-container">
-            <h2>Places Worth Discovering</h2>
-            <p>
-                Sonora offers a variety of landscapes and experiences.
-                Visitors can enjoy coastal scenery, explore desert
-                environments, and discover communities with distinctive
-                histories and traditions.
-            </p>
+            <article class="card">
+                <img
+                    src="images/puerto-penasco.webp"
+                    alt="Beach and Sea of Cortez in Puerto Peñasco, Sonora"
+                    loading="lazy"
+                    width="600"
+                    height="400">
 
-            <div class="card-grid">
-                <article class="card">
-                    <img
-                        src="images/san-carlos.webp"
-                        alt="Cerro Tetakawi and the coastline in San Carlos, Sonora"
-                        loading="lazy"
-                        width="600"
-                        height="400"
-                    >
-                    <div class="card-content">
-                        <h3>San Carlos</h3>
-                        <p>
-                            San Carlos, near Guaymas, is known for its
-                            coastal scenery, clear waters, and views of
-                            the distinctive Tetakawi mountain. Visitors
-                            enjoy boating, fishing, kayaking, and exploring
-                            the surrounding natural environment.
-                        </p>
-                    </div>
-                </article>
+                <h3>Puerto Peñasco</h3>
+                <p>
+                    Puerto Peñasco, also known as Rocky Point, is a
+                    popular destination on the Sea of Cortez. Its sandy
+                    beaches, ocean views, and seafood make it a favorite
+                    place for visitors and families.
+                </p>
+            </article>
 
-                <article class="card">
-                    <img
-                        src="images/puerto-penasco.webp"
-                        alt="Beach and coastal landscape in Puerto Peñasco, Sonora"
-                        loading="lazy"
-                        width="600"
-                        height="400"
-                    >
-                    <div class="card-content">
-                        <h3>Puerto Peñasco</h3>
-                        <p>
-                            Located on the northern coast of the Sea of
-                            Cortez, Puerto Peñasco is a popular coastal
-                            destination. Its beaches, sunsets, seafood,
-                            and opportunities for outdoor recreation make
-                            it an attractive place to visit.
-                        </p>
-                    </div>
-                </article>
+            <article class="card">
+                <img
+                    src="images/sonoran-desert.webp"
+                    alt="Natural desert landscape of Sonora with desert vegetation"
+                    loading="lazy"
+                    width="600"
+                    height="400">
 
-                <article class="card">
-                    <img
-                        src="images/sonora-desert.webp"
-                        alt="Desert landscape in Sonora, Mexico"
-                        loading="lazy"
-                        width="600"
-                        height="400"
-                    >
-                    <div class="card-content">
-                        <h3>The Sonoran Desert</h3>
-                        <p>
-                            The Sonoran Desert is recognized for its
-                            remarkable biodiversity and iconic saguaro
-                            cacti. Its plants and animals have adapted to
-                            challenging conditions, creating a unique
-                            natural environment.
-                        </p>
-                    </div>
-                </article>
+                <h3>The Sonoran Desert</h3>
+                <p>
+                    The Sonoran Desert features distinctive vegetation,
+                    impressive cacti, and landscapes adapted to a dry
+                    climate. It is home to a variety of plants and
+                    wildlife that make this region unique.
+                </p>
+            </article>
 
-                <article class="card">
-                    <img
-                        src="images/hermosillo.webp"
-                        alt="Urban landscape of Hermosillo, the capital of Sonora"
-                        loading="lazy"
-                        width="600"
-                        height="400"
-                    >
-                    <div class="card-content">
-                        <h3>Hermosillo</h3>
-                        <p>
-                            Hermosillo is the capital and one of the
-                            largest cities in Sonora. It offers museums,
-                            parks, regional restaurants, and opportunities
-                            to learn about the state's history and modern
-                            culture.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
+            <article class="card">
+                <img
+                    src="images/hermosillo.webp"
+                    alt="View of Hermosillo, the capital city of Sonora, Mexico"
+                    loading="lazy"
+                    width="600"
+                    height="400">
 
-        <section class="newsletter section-container">
-            <h2>Choose Your Favorite Type of Destination</h2>
-            <p>
-                What kind of experience would you prefer when exploring
-                Sonora?
-            </p>
+                <h3>Hermosillo</h3>
+                <p>
+                    Hermosillo is the capital of Sonora and an important
+                    cultural and economic center. Visitors can explore
+                    local restaurants, public spaces, historic sites,
+                    and the traditions of the region.
+                </p>
+            </article>
+        </div>
+    </section>
 
-            <form id="destination-form">
-                <label for="destination-type">Choose a category</label>
-                <select id="destination-type" name="destination-type" required>
-                    <option value="">Select a destination type</option>
-                    <option value="coast">Coastal destinations</option>
-                    <option value="nature">Nature and desert</option>
-                    <option value="city">Cities and culture</option>
-                </select>
+    <section class="container">
+        <h2>Find Your Next Destination</h2>
+        <p>
+            What kind of place would you like to explore in Sonora?
+            Choose a destination type below.
+        </p>
 
-                <button class="button" type="submit">Show My Recommendation</button>
-            </form>
+        <form id="destination-form">
+            <label for="destination-type">Choose a destination type:</label>
 
-            <p id="destination-message" class="form-message" aria-live="polite"></p>
-        </section>
-    </main>
+            <select id="destination-type" name="destination-type" required>
+                <option value="">Select a destination</option>
+                <option value="beach">Beaches and coastal destinations</option>
+                <option value="desert">Desert and nature</option>
+                <option value="city">Cities and culture</option>
+            </select>
 
-    <footer>
-        <p>&copy; <span id="current-year"></span> Discover Sonora | Victor O. Fontes</p>
-        <p><a href="referen
+            <button type="submit">Find Destinations</button>
+        </form>
+
+        <p id="destination-message" aria-live="polite"></p>
+    </section>
+</main>
+
+<footer>
+    <p>
+        &copy; <span id="current-year"></span> Discover Sonora |
+        Sonora, Mexico
+    </p>
+    <p>
+        <a href="references.html">References and Image Credits</a>
+    </p>
+</footer>
+```
+
+</body>
+</html>

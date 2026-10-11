@@ -123,13 +123,16 @@ header {
 /* Hero section */
 
 .hero {
+     min-height: 450px;
     display: flex;
     align-items: center;
-    min-height: 480px;
-    padding: 4rem 8%;
-    background:
-        linear-gradient(90deg, rgb(16 55 70 / 92%), rgb(16 55 70 / 30%)),
-        linear-gradient(135deg, #b87548, #e7c69b);
+    padding: 3rem 6%;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../images/sonoran-desert.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 }
 
